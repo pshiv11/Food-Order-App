@@ -1,12 +1,13 @@
 import React from 'react';
+import classes from './Input.module.css';
 
-
-function Input() {
+function Input(props) {
     return (
-        <div>
-            
+        <div className={classes.input}>
+            <label htmlFor={props.input.id}>{props.label}</label>
+            <input {...props.input}></input>
         </div>
-    )
+    );
 }
 
 export default Input
