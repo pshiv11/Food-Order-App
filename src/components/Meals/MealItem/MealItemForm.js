@@ -7,7 +7,7 @@ function MealItemForm(props) {
         
         <form className={classes.form}>
             <Input label="Amount" input={{  //this will be passed as an object to Input component where {...input}  is used, so we dont have to u
-                id: 'amount',
+                id: 'amount_' + props.id,
                 type:'number',
                 min:'1',
                 max:'5',
