@@ -3,7 +3,7 @@ import classes from './AvailableMeals.module.css';
 import Card from '../UI/Card';
 import MealItem from './MealItem/MealItem';
 
-//this data can be fetched from database if we have the available connection to it.
+//this data can be fetched from database in real world scenario
 const DUMMY_MEALS = [
     {
       id: 'm1',
